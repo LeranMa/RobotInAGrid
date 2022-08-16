@@ -1,4 +1,3 @@
-
 /*
  * This program addresses the following problem from Gayle Laakmann McDowell's
  * CRACKING THE CODING INTERVIEW, SIXTH EDITION.
@@ -36,7 +35,7 @@ int main()
     {
         for (int j = 0; j < c; ++j)
         {
-            cin << grid[i][j];
+            cin >> grid[i][j];
         }
     }
 
@@ -86,7 +85,7 @@ int main()
 
     if ( grid[r - 1][c - 1] == 1 )
     {
-        cout << "The bottom right corner is not reachable."
+        cout << "The bottom right corner is not reachable.";
         return 0;
     }
 
